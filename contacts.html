@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLDSTAR | Контакты</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="snowCanvas"></canvas>
+
+    <div class="app-wrapper">
+        <div class="sidebar-overlay" id="sidebarOverlay"></div>
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <span class="cold">COLD</span><span class="star">STAR</span>
+                <button class="close-sidebar" id="closeSidebar">✕</button>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="index.html" class="nav-btn">🏠 Главная</a>
+                <a href="servers.html" class="nav-btn">▶ Сервера</a>
+                <a href="shop.html" class="nav-btn">$ Магазин</a>
+                <a href="banlist.html" class="nav-btn">🚫 Блок-лист</a>
+                <a href="rules.html" class="nav-btn">📋 Правила</a>
+                <a href="contacts.html" class="nav-btn active">📢 Контакты</a>
+                <button class="nav-btn steam-btn" id="steamLogin">
+                    <span class="nav-icon">🎮</span> Войти через Steam
+                </button>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <button class="menu-toggle" id="menuToggle">☰</button>
+
+            <section class="connect-section">
+                <h2 class="section-title">🔗 КОНТАКТЫ</h2>
+                <div class="connect-box">
+                    <p>Присоединяйся к нашему сообществу!</p>
+                    <div class="connect-links">
+                        <a href="steam://connect/coldstar.cs2:27015" class="btn primary">🚀 ИГРАТЬ СЕЙЧАС</a>
+                        <a href="https://discord.gg/Yu2jMdsFT" target="_blank" class="btn discord-btn">💬 DISCORD</a>
+                        <a href="https://t.me/coldstarcs2" target="_blank" class="btn secondary">📺 TELEGRAM</a>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-logo">❄️ COLDSTAR CS2</div>
+                    <p>© 2026. Все права защищены.</p>
+                    <div class="footer-links">
+                        <a href="#">Политика</a>
+                        <a href="rules.html">Правила</a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
